@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Marcoco27/sentinelle-creances",
+  "title": "Sentinelle créances FR",
+  "description": "French insolvency notices (BODACC) per company, with the creditor claim filing deadline.",
+  "version": "0.1.1",
+  "websiteUrl": "https://creances.amacunia.fr/",
+  "repository": {
+    "url": "https://github.com/Marcoco27/sentinelle-creances-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://creances.amacunia.fr/mcp"
+    }
+  ]
+}
